@@ -1,0 +1,25 @@
+<html>
+<head>
+  <meta charset="UTF-8">
+  <script src="http://cdn.wilddog.com/js/client/current/wilddogio.debug.js"></script>
+  <script src="http://libs.baidu.com/jquery/2.1.1/jquery.min.js"></script>
+
+</head>
+<body>
+<iframe src= "http://drawing.wilddog.com/canvas" name="iframe1" id="iframe1"  scrolling=no allowTransparency="true"></iframe>
+<iframe src= "http://drawing.wilddog.com/canvas" name="iframe2" id="iframe2"  scrolling=no allowTransparency="true"></iframe>
+</div>
+
+<script>
+var height = $(window).height(); //浏览器当前窗口可视区域高度 
+var width = $(window).width(); //浏览器当前窗口可视区域宽度 
+var w = width/2;
+$("#iframe1").attr("height",height);
+$("#iframe1").attr("width",w-100);
+$("#iframe2").attr("height",height);
+$("#iframe2").attr("width",w-100);
+
+</script>
+</body>
+</html>
+
