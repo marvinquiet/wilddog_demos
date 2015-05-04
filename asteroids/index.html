@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <link rel="stylesheet" type="text/css" href="asteroids.css">
+  <script src="//cdn.wilddog.com/js/client/current/wilddog.js"></script>
+  <script src="//libs.baidu.com/jquery/1.11.1/jquery.min.js"></script>
+  <script src="assets/vector_battle_regular.typeface.js"></script>
+  <script src="anchor.js"></script>
+  <script src="game.js"></script>
+  <base target="_blank">
+</head>
+<body>
+<div id="asteroids">
+  <div id="header-pane">
+    <div id="header-left">
+      <span>Multiplayer Asteroids! &nbsp; &nbsp; </span>
+    </div>
+    <div id="header-right">
+      <span id="my-name"></span>: <span id="my-score"></span>
+    </div>
+  </div>
+  <div id="game-pane">
+    <div id="game-container">
+      <div id="left-controls">
+        <div id="up" class='button'>⬆</div>
+        <div id="left" class='button'>⬅</div>
+        <div id="right" class='button'>➡</div>
+      </div>
+      <div id="right-controls">
+        <div id="space" class='button'>Fire</div>
+      </div>
+      <canvas id="canvas" width="1000" height="700"></canvas>
+    </div>
+  </div>
+  <div id="footer-pane">
+    <div class="footer-col">
+      <h3>Wat</h3>
+      <ul>
+        <li>An actual MMO <a href="https://github.com/dmcinnes/HTML5-Asteroids">Asteroids</a> without the April Fools'
+          joke! And, also, ehh.. without asteroids. You get the point.
+        </li>
+        <li>Built on a Sunday afternoon using a <a href="https://www.firebase.com/">super awesome API</a>.</li>
+
+      </ul>
+    </div>
+    <div class="footer-col">
+      <h3>Controls</h3>
+      <ul>
+        <li>⬅ ⬆ ➡ [space]</li>
+      </ul>
+    </div>
+    <div class="footer-col">
+      <h3>Leaderboard</h3>
+      <table id="leaderboardTable"></table>
+    </div>
+    <div class="footer-col">
+      <h3>Powered By</h3>
+      <a href="https://www.firebase.com/"><img src="assets/firebase.png"></a><br>
+    </div>
+  </div>
+</div>
+</body>
+</html>
