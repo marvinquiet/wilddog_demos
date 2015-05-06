@@ -288,8 +288,8 @@
 	var utils = {
 	  urls: {
 	    root: root,
-	    furniture: root + 'furniture/',
-	    background: root + 'background/'
+	    furniture: root + 'furniture',
+	    background: root + 'background'
 	  }
 	};
 
